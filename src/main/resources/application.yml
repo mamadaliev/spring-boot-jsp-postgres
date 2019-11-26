@@ -1,26 +1,8 @@
 server:
   port: 8080
-  servlet:
-    context-path: /api
 
 spring:
-  main:
-    banner-mode: off
-
-  datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/demo
-    username: root
-    password: root
-    driver-class-name: org.postgresql.Driver
-    initialization-mode: always
-
-  jpa:
-    database: POSTGRESQL
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQL95Dialect
-    generate-ddl: true
-    open-in-view: false
-    show-sql: false
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
