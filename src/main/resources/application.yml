@@ -6,3 +6,20 @@ spring:
     view:
       prefix: /view/
       suffix: .jsp
+  profiles:
+    active: dev
+  main:
+    banner-mode: off
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://localhost:3306/books?serverTimezone=UTC
+    username: root
+    password: rootPassword
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    open-in-view: false
+    generate-ddl: false
