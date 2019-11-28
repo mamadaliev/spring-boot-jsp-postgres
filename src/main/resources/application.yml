@@ -12,12 +12,12 @@ spring:
     banner-mode: off
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:postgresql://localhost:3306/books?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/books?serverTimezone=UTC
     username: root
     password: rootPassword
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: false
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5Dialect
