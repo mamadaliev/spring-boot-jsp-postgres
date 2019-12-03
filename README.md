@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/egnaf/spring-web-jsp-example.svg)](https://travis-ci.org/egnaf/spring-web-jsp-example)
+[![Build Status](https://travis-ci.org/egnaf/spring-jsp-example.svg)](https://travis-ci.org/egnaf/spring-jsp-example)
 
-# spring-web-jsp-example
+# spring-jsp-example
 
 ## Stack
 - Spring Boot 2.2.0.RELEASE
